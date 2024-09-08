@@ -1,0 +1,19 @@
+# 11ty output
+_site/
+
+# Dependency directories
+node_modules/
+
+# OS generated files
+Thumbs.db
+
+# Log files
+npm-debug.log*
+
+# Optional: Cache directories
+.cache/
+
+# Optional: Environment variables (if you decide to use them later)
+.env
+
+structure.txt

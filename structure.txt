@@ -1,0 +1,36 @@
+bwww (root)
+node_modules
+src	
+	_includes
+		base.njk
+		footer.njk
+		header.njk
+		post.njk
+		post-list.njk
+	assets
+		images
+			awaken.jpg
+			language.jpg
+			a-loving-couple.jpg
+			meditate.jpg
+			ShadowSelf.jpg
+			synchronicity.jpg
+			meditate.jpg
+			einstein.jpg
+			eq.jpg
+			logo.jpg
+			musclem-man.jpg
+			musclem-woman.jpg
+	blog
+		Hello-Gartuian.md
+		synchronicity.md
+		language.md
+		post-one.md
+		post-two.md
+		4-7-8.md
+		index.md
+.eleventy.js
+package-lock.json
+package.json
+
+_site/

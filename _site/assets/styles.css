@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.3;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0.5rem;
+    padding-top: 0; /* Remove top padding if any */
+}
+
+header, footer {
+    background-color: #f4f4f4;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+nav {
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    margin-right: 0.5rem;
+}
+
+main {
+    margin-bottom: 0.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 400; /* Add this line to make titles less bold */
+}
+
+article {
+    margin-bottom: 1rem;
+    margin-top: 1rem; /* Add some top margin to the article */
+}
+
+ul {
+    padding-left: 1rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+li {
+    margin-bottom: 0.3rem;
+}
+
+time {
+    color: #666;
+    font-size: 0.7rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0.5rem auto;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    width: 50px;
+    height: auto;
+    margin-right: 1rem;
+}
+
+article header {
+    margin-bottom: 0.5rem;
+}
+
+article h1 {
+    margin-bottom: 0.3rem;
+}
+
+article header p {
+    margin-bottom: 0.3rem;
+}
+
+article header + *:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
+    margin-top: 0.3rem;
+}
+
+article hr {
+    margin: 0.3rem 0;
+}
+
+nav.container {
+    margin-bottom: 0.5rem; /* Reduce the bottom margin of the nav container */
+}
+
+main.container {
+    padding: 0px 0px 40px 0px;
+    margin-top: 0; /* Remove top margin from the main container */
+}
+
+h1:first-child {
+    margin-top: 0; /* Remove top margin from the first h1 in the content */
+}
+
+p, ul, ol {
+    margin-bottom: 0.5rem;
+}
+
+.post-list {
+    --spacing: 0.5rem;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.post-list li {
+    margin-bottom: var(--spacing);
+}
+
+.post-list li:last-child {
+    margin-bottom: 0;
+}
+
+.post-list article {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.post-list h3 {
+    margin-top: 1rem; /* Add top margin to create space above the title */
+    margin-bottom: calc(var(--spacing) / 2);
+    padding-top: 1rem; /* Add padding to create space for the border */
+    border-top: 1px solid #e0e0e0; /* Add a light gray top border */
+}
+
+/* Remove the top margin and border from the first post's title */
+.post-list li:first-child h3 {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: none;
+}
+
+@media (min-width: 768px) {
+    .image-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .image-container img {
+        width: 49%;
+        margin: 0.5%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .image-container img {
+        width: 32.33%;
+        margin: 0.5%;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+}
