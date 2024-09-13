@@ -1,5 +1,5 @@
 # 11ty output
-_site/
+public/
 
 # Dependency directories
 node_modules/
